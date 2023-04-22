@@ -14,6 +14,11 @@
 		D6D4482329F4097F00314681 /* Maze4DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4482229F4097F00314681 /* Maze4DTests.swift */; };
 		D6D4482D29F4097F00314681 /* Maze4DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4482C29F4097F00314681 /* Maze4DUITests.swift */; };
 		D6D4482F29F4097F00314681 /* Maze4DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4482E29F4097F00314681 /* Maze4DUITestsLaunchTests.swift */; };
+		D6D4483C29F4098E00314681 /* Vector4D.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4483B29F4098E00314681 /* Vector4D.swift */; };
+		D6D4483E29F40BF600314681 /* Maze4D.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4483D29F40BF600314681 /* Maze4D.swift */; };
+		D6D4484029F40F4600314681 /* Maze4DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4483F29F40F4600314681 /* Maze4DView.swift */; };
+		D6D4484229F411A400314681 /* DirectionInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4484129F411A400314681 /* DirectionInputView.swift */; };
+		D6D4484429F413FD00314681 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4484329F413FD00314681 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		D6D4482829F4097F00314681 /* Maze4DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Maze4DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D4482C29F4097F00314681 /* Maze4DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze4DUITests.swift; sourceTree = "<group>"; };
 		D6D4482E29F4097F00314681 /* Maze4DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze4DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6D4483B29F4098E00314681 /* Vector4D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector4D.swift; sourceTree = "<group>"; };
+		D6D4483D29F40BF600314681 /* Maze4D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze4D.swift; sourceTree = "<group>"; };
+		D6D4483F29F40F4600314681 /* Maze4DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze4DView.swift; sourceTree = "<group>"; };
+		D6D4484129F411A400314681 /* DirectionInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionInputView.swift; sourceTree = "<group>"; };
+		D6D4484329F413FD00314681 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				D6D4481429F4097F00314681 /* Assets.xcassets */,
 				D6D4481629F4097F00314681 /* Maze4D.entitlements */,
 				D6D4481729F4097F00314681 /* Preview Content */,
+				D6D4483B29F4098E00314681 /* Vector4D.swift */,
+				D6D4483D29F40BF600314681 /* Maze4D.swift */,
+				D6D4483F29F40F4600314681 /* Maze4DView.swift */,
+				D6D4484129F411A400314681 /* DirectionInputView.swift */,
+				D6D4484329F413FD00314681 /* GameView.swift */,
 			);
 			path = Maze4D;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D4483E29F40BF600314681 /* Maze4D.swift in Sources */,
+				D6D4484229F411A400314681 /* DirectionInputView.swift in Sources */,
+				D6D4484029F40F4600314681 /* Maze4DView.swift in Sources */,
 				D6D4481329F4097D00314681 /* ContentView.swift in Sources */,
 				D6D4481129F4097D00314681 /* Maze4DApp.swift in Sources */,
+				D6D4483C29F4098E00314681 /* Vector4D.swift in Sources */,
+				D6D4484429F413FD00314681 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
